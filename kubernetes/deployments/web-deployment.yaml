@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: powerapp-web
-        image: sighup/powerapp-frontend
+        image: registry.sighup.io/workshop/sighup/powerapp-frontend
         env:
         - name: BACKEND_HOST
           value: powerapp-backend-service

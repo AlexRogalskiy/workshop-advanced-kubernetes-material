@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: powerapp-mongo
-        image: mongo:4.1.5-xenial
+        image: registry.sighup.io/workshop/mongo:4.1.5-xenial
         ports:
         - containerPort: 27017
         volumeMounts:
