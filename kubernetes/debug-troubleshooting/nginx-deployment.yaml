@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: ngnx:1.7.9
+          image: registry.sighup.io/workshop/ngnx:1.7.9
           ports:
             - containerPort: 80
