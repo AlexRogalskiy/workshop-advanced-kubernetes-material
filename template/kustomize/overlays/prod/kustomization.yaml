@@ -18,7 +18,7 @@ secretGenerator:
   files:
   - password.txt
 
-secretGenerator:
+configMapGenerator:
 - name: web
   literals:
   - COMPANY=SIGHUP
