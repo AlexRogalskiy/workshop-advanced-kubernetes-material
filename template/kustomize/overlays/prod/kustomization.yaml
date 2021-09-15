@@ -15,11 +15,13 @@ patchesStrategicMerge:
 
 secretGenerator:
 - name: web
+  namespace: prod
   files:
   - password.txt
 
 configMapGenerator:
 - name: web
+  namespace: prod
   literals:
   - COMPANY=SIGHUP
   - SOME_VAR=dev
