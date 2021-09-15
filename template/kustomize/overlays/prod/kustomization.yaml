@@ -17,7 +17,7 @@ secretGenerator:
 - name: web
   namespace: prod
   files:
-  - password.txt
+  - some-password=secrets/password.txt
 
 configMapGenerator:
 - name: web
